@@ -1,0 +1,28 @@
+name: your_project_name
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/morning.jpg
+    - assets/images/midday.jpg
+    - assets/images/night.jpg
+    - assets/images/evening.jpg
+    - assets/images/dart.png
+    - assets/images/background.jpg
